@@ -27,6 +27,7 @@ def main():
     
 
 # Loop to run game
+# TO DO: Rework this. Much too long for one function.
 def game_playing(answer: str, words: list) -> None:
     counter = 0
     guesses = []
